@@ -16,7 +16,7 @@ domain(domain:sentry.io)->direct
 domain(domain: self.events.data.microsoft.com)->direct
 domain(domain:odc.officeapps.live.com)->direct
 domain(domain:o4505146921385984.ingest.sentry.io)->direct
-
+domain(domain:in.appcenter.ms)->direct
 
 domain(domain:springer.com)->direct
 domain(domain:sciencedirect.com)->direct
