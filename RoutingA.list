@@ -1,0 +1,35 @@
+default: proxy
+# write your own rules below
+domain(domain:mail.qq.com)->direct
+domain(domain:bard.google.com)->bard
+
+domain(geosite:google-scholar)->proxy
+domain(geosite:category-scholar-!cn, geosite:category-scholar-cn)->direct
+domain(geosite:geolocation-!cn, geosite:google)->proxy
+domain(geosite:cn)->direct
+ip(geoip:hk,geoip:mo)->proxy
+ip(geoip:private, geoip:cn)->direct
+
+domain(domain:live.com)->direct
+domain(domain:microsoft.com)->direct
+domain(domain:sentry.io)->direct
+domain(domain: self.events.data.microsoft.com)->direct
+domain(domain:odc.officeapps.live.com)->direct
+domain(domain:o4505146921385984.ingest.sentry.io)->direct
+
+
+domain(domain:springer.com)->direct
+domain(domain:sciencedirect.com)->direct
+domain(domain:tandfonline.com)->direct
+domain(domain:infomaniak.com)->direct
+
+domain(domain:baidu.com)->direct
+domain(domain:alipan.com)->direct
+domain(domain:mail.163.com)->direct
+domain(domain:appstorrent.ru)->direct
+domain(domain:digit77.com)->direct
+domain(domain:netfly.lol)->direct
+domain(domain:netfly.fun)->direct
+domain(domain:netfly.tv)->direct
+domain(domain:yaneifei.me)->direct
+domain(domain:yaneifei.tv)->direct
