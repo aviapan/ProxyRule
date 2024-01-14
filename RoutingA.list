@@ -11,16 +11,24 @@ ip(geoip:hk,geoip:mo)->proxy
 ip(geoip:private, geoip:cn)->direct
 
 domain(domain:live.com)->direct
+domain(domain:roaming.officeapps.live.com)->direct
 domain(domain:microsoft.com)->direct
 domain(domain:sharepoint.com)->direct
+domain(domain:aviapan-my.sharepoint.com)->direct
 domain(domain:login.microsoftonline.com)->direct
 domain(domain:skydrive.wns.windows.com)->direct
 domain(domain:sentry.io)->direct
-domain(domain: self.events.data.microsoft.com)->direct
+domain(domain:self.events.data.microsoft.com)->direct
 domain(domain:odc.officeapps.live.com)->direct
 domain(domain:o4505146921385984.ingest.sentry.io)->direct
 domain(domain:in.appcenter.ms)->direct
 domain(domain:www.better365.cn)->direct
+
+domain(domain:japaneast-pa00.augloop.office.com)->direct
+domain(domain:augloop.office.com)->direct
+domain(domain:pjp1-collabhubrtc.officeapps.live.com)->direct
+domain(domain:substrate.office.com)->direct
+domain(domain:ocws.officeapps.live.com)->direct
 
 domain(domain:springer.com)->direct
 domain(domain:sciencedirect.com)->direct
