@@ -2,6 +2,18 @@
   "description":"IconSet", 
   "icons":
   [
-    {"name":"OpenAI","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/OpenAI.png"}
+    {"name":"OpenAI","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/OpenAI.png"},
+    {"name":"HK","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/HK.png"},
+    {"name":"JP","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/JP.png"},
+    {"name":"KR","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/KR.png"},
+    {"name":"SG","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/SG.png"},
+    {"name":"US","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/US.png"},
+    {"name":"Youtube","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/YouTube.png"},
+    {"name":"Telegram","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/Telegram.png"},
+    {"name":"Netflix_N","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/Netflix_N.png"},
+    {"name":"Netflix","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/Netflix.png"},
+    {"name":"Spotify","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/Spotify.png"},
+    {"name":"WeChat","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/WeChat.png"},
+    {"name":"Bilibili","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/Bilibili.png"}
   ]
 }
