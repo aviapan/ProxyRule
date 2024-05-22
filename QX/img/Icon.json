@@ -1,5 +1,6 @@
-{"name":"Icon","icons":
+{"name":"Icon",
+  "icons":
   [
-    {"name":"OpenAI.png","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/OpenAI.png"}
+    {"name":"OpenAI","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/OpenAI.png"}
   ]
 }
