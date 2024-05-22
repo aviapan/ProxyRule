@@ -1,5 +1,5 @@
 {"name":"Icon",
-  "description":"qx_icons", 
+  "description":"IconSet", 
   "icons":
   [
     {"name":"OpenAI","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QX/img/OpenAI.png"}
