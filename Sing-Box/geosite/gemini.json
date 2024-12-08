@@ -20,7 +20,8 @@
         "gemini.google.com",
         "generativeai.google",
         "googleapis.com",
-        "apis.google.com"
+        "apis.google.com",
+        "googletagmanager.com"
       ]
     },
     {
