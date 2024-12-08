@@ -12,11 +12,14 @@
     {
       "domain_suffix": [
         "bard.google.com",
+        "ogs.google.com",
+        "mtalk.google.com",
+        "clients6.google.com",
         "deepmind.com",
         "deepmind.google",
         "gemini.google.com",
         "generativeai.google",
-        "proactivebackend-pa.googleapis.com",
+        "googleapis.com",
         "apis.google.com"
       ]
     },
