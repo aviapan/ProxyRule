@@ -3,6 +3,11 @@
   "version": 1,
   "rules": [
     {
+      "domain": [
+        "gemini.google.com"
+      ]
+    },
+    {
       "domain_suffix": [
         "gemini.google.com"
       ]
