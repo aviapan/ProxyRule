@@ -2,13 +2,8 @@
   "version": 1,
   "rules": [
     {
-      "domain": [
-        "gemini.google.com",
-        "www.perplexity.ai"
-      ]
-    },
-    {
       "domain_suffix": [
+        "gemini.google.com",
         "perplexity.ai"
       ]
     }
