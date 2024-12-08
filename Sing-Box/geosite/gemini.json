@@ -19,6 +19,13 @@
         "proactivebackend-pa.googleapis.com",
         "apis.google.com"
       ]
+    },
+    {
+      "domain_keyword": [
+        "colab",
+        "developerprofiles",
+        "generativelanguage"
+      ]
     }
   ]
 }
