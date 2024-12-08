@@ -7,7 +7,7 @@
   
   "experimental": {
   "cache_file": {
-    "enabled": true
+    "enabled": false
     }
   },
   
