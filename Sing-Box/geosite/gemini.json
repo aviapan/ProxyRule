@@ -1,1 +1,10 @@
-
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "gemini.google.com"
+      ]
+    }
+  ]
+}
