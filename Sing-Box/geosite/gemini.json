@@ -3,7 +3,8 @@
   "rules": [
     {
       "domain": [
-        "gemini.google.com"
+        "gemini.google.com",
+        "www.perplexity.ai"
       ]
     }
   ]
