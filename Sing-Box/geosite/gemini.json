@@ -11,17 +11,17 @@
     },
     {
       "domain_suffix": [
-        "bard.google.com",
-        "ogs.google.com",
-        "mtalk.google.com",
-        "clients6.google.com",
-        "deepmind.com",
-        "deepmind.google",
-        "gemini.google.com",
-        "generativeai.google",
-        "googleapis.com",
-        "apis.google.com",
-        "googletagmanager.com"
+        ".bard.google.com",
+        ".ogs.google.com",
+        ".mtalk.google.com",
+        ".clients6.google.com",
+        ".deepmind.com",
+        ".deepmind.google",
+        ".gemini.google.com",
+        ".generativeai.google",
+        ".googleapis.com",
+        ".apis.google.com",
+        ".googletagmanager.com"
       ]
     },
     {
