@@ -32,8 +32,7 @@
       { "clash_mode": "direct", "server": "localDns" },
       { "clash_mode": "global", "server": "proxyDns" },
       { "rule_set": "geosite-cn", "server": "localDns" },
-      { "rule_set": "geosite-geolocation-!cn", "server": "proxyDns" },
-      { "rule_set": "adblock", "action": "reject", "method": "default", "no_drop": false }
+      { "rule_set": "geosite-geolocation-!cn", "server": "proxyDns" }
     ],
     "final": "localDns",
     "strategy": "ipv4_only"
@@ -80,6 +79,7 @@
     { "tag": "🇭🇰 香港节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇭🇰|HK|hk|香港|港|HongKong|Hong Kong"] }] },
     { "tag": "🇺🇲 美国节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇺🇸|US|us|美国|美|United States"] }, { "action": "exclude", "keywords": ["Russia|香港|港|HK|hk|HongKong|Hong Kong"] }] },
     { "tag": "GLOBAL", "type": "selector", "outbounds": ["{all}"]},
+    { "tag": "reject", "type": "block" },
     { "tag": "🎯 全球直连", "type": "direct" },
     { "tag": "dns-out", "type": "dns" }
   ],
@@ -91,6 +91,7 @@
       { "type": "logical", "mode": "or", "rules": [{ "port": 53 }, { "protocol": "dns" }], "outbound": "dns-out" },
       { "clash_mode": "direct", "outbound": "🎯 全球直连" },
       { "clash_mode": "global", "outbound": "GLOBAL" },
+      { "rule_set": "adblock", "outbound": "reject" },
       { "domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one"], "outbound": "🎯 全球直连" },
       { "domain": ["gemini.google.com", "voice.google.com", "perplexity.ai", "anthropic.com"], "outbound": "🇺🇲 美国节点" },
       { "rule_set": ["geosite-private", "geoip-private"], "outbound": "🎯 全球直连" },
