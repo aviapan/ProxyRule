@@ -90,7 +90,7 @@
       { "type": "logical", "mode": "or", "rules": [{ "port": 53 }, { "protocol": "dns" }], "outbound": "dns-out" },
       { "clash_mode": "direct", "outbound": "🎯 全球直连" },
       { "clash_mode": "global", "outbound": "GLOBAL" },
-      { "rule_set": "adblock", "action": "reject" },
+      { "rule_set": "adblock", "action": "reject", "method": "default", "no_drop": false },
       { "domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one"], "outbound": "🎯 全球直连" },
       { "domain": ["gemini.google.com", "voice.google.com", "perplexity.ai", "anthropic.com"], "outbound": "🇺🇲 美国节点" },
       { "rule_set": ["geosite-private", "geoip-private"], "outbound": "🎯 全球直连" },
