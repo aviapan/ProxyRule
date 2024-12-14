@@ -1,0 +1,29 @@
+{"name":"IconSet",
+  "description":"IconSet", 
+  "icons":
+  [
+    {"name":"OpenAI","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/OpenAI.png"},
+    {"name":"CN","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/CN.png"},
+    {"name":"CN_Letter","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/CN_Letter.png"},
+    {"name":"HK","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/HK.png"},
+    {"name":"HK_Letter","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/HK_Letter.png"},
+    {"name":"TW","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/TW.png"},
+    {"name":"TW_Letter","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/TW_Letter.png"},
+    {"name":"JP","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/JP.png"},
+    {"name":"JP_Letter","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/JP_Letter.png"},
+    {"name":"KR","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/KR.png"},
+    {"name":"KR_Letter","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/KR_Letter.png"},
+    {"name":"SG","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/SG.png"},
+    {"name":"SG_Letter","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/SG_Letter.png"},
+    {"name":"US","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/US.png"},
+    {"name":"US_Letter","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/US_Letter.png"},
+    {"name":"Youtube","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/YouTube.png"},
+    {"name":"Youtube_Letter","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/YouTube_Letter.png"},
+    {"name":"Telegram","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/Telegram.png"},
+    {"name":"Netflix","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/Netflix.png"},
+    {"name":"Netflix_Letter","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/Netflix_Letter.png"},
+    {"name":"Spotify","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/Spotify.png"},
+    {"name":"WeChat","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/WeChat.png"},
+    {"name":"Bilibili","url":"https://raw.githubusercontent.com/aviapan/ProxyRule/main/QuantumultX/IconSet/Bilibili.png"}
+  ]
+}
