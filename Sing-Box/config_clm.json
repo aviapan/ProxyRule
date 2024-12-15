@@ -30,6 +30,7 @@
     "rules": [
       { "outbound": "any", "server": "defaultDns", "disable_cache": true },
       { "clash_mode": "direct", "server": "localDns" },
+      { "process_name": "Safari浏览器", "server": "localDns" },
       { "clash_mode": "global", "server": "proxyDns" },
       { "rule_set": "geosite-cn", "server": "localDns" },
       { "rule_set": "geosite-geolocation-!cn", "server": "proxyDns" }
@@ -89,7 +90,6 @@
     "rules": [
       { "type": "logical", "mode": "or", "rules": [{ "port": 53 }, { "protocol": "dns" }], "outbound": "dns-out" },
       { "clash_mode": "direct", "outbound": "🎯 全球直连" },
-      { "process_name": "Safari浏览器", "outbound": "🎯 全球直连" },
       { "clash_mode": "global", "outbound": "GLOBAL" },
       { "domain": ["clash.razord.top", "yacd.metacubex.one", "yacd.haishan.me", "d.metacubex.one"], "outbound": "🎯 全球直连" },
       { "domain": ["gemini.google.com", "voice.google.com", "perplexity.ai", "anthropic.com"], "outbound": "🇺🇲 美国节点" },
