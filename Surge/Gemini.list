@@ -1,1 +1,16 @@
+DOMAIN,ai.google.dev
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,makersuite.google.com
+
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,clients6.google.com
+DOMAIN-SUFFIX,clients4.google.com
+DOMAIN-SUFFIX,mtalk.google.com
+DOMAIN-SUFFIX,ogs.google.com
+DOMAIN-SUFFIX,bard.google.com
